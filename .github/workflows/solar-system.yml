@@ -94,4 +94,4 @@ jobs:
               ghcr.io/${{ github.repository_owner }}/solar-system:${{ github.sha
               }}
             INGRESS_IP: '${{ env.INGRESS_IP }}'
-        - run: cat kubernetes/development/*.yaml
+        - run: cat kubernetes/development/*.yaml     
